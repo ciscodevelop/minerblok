@@ -1,0 +1,45 @@
+.widget {
+  width: calc(58vw / 3 - 10px);
+  min-width: 350px;
+  box-shadow: 0px 0px 15px 0px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background: #282C35;
+ 
+   
+  
+  .wrapper {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .detail {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      span {
+      }
+    }
+    // .buttons {
+    //   display: flex;
+    //   button {
+    //     width: 100px;
+    //     display: flex;justify-content: center;
+    //     align-items: center;
+    //     padding: 5px;
+
+    //     margin-left: 10px;
+    //     .icon {
+    //       margin-right: 10px;
+    //     }
+    //   }
+    // }
+  }
+}

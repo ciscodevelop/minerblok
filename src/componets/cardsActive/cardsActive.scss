@@ -1,0 +1,30 @@
+.cardsActive{
+    display: flex;
+    .cards-active {
+        width: 60px;
+        display: flex;
+        margin-right: 10px;
+        .container-card {
+          .img-container-card {
+            width: 60px;
+            background: lightsalmon;
+            border-radius: 5px;
+            border: 1px solid white;
+            margin-bottom: 5px;
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+          h6 {
+            width: 60px;
+            height: 20px;
+            font-size: 12px;
+            font-weight: 200;
+            color: white;
+            background: green;
+            border-radius: 5px;
+          }
+        }
+      }
+}

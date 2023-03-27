@@ -1,0 +1,9 @@
+.app {
+ max-width: 1200px;
+  margin: 0 auto;
+ 
+  .app-header {
+    background: transparent;
+    font-size: calc( 2vmin + 10px);
+  }
+}

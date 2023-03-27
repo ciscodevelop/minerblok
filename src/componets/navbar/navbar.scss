@@ -1,0 +1,28 @@
+.navbar {
+   
+  background: #282C35;
+  
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  // border: 1px solid blue;
+  overflow: hidden;
+  .navbar-container {padding: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    .wrapper-left {
+      .left {
+      }
+    }
+    .wrapper-right {
+      .right {
+        .icon {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
